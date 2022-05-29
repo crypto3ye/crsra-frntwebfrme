@@ -10,6 +10,13 @@
     min-height:400px;
 }
 
+.card-row-content {
+    margin:0px auto;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 1px ridge;
+    
+}
+
 .footer{
     background-color: #D1C4E9;
     margin:0px auto;
