@@ -114,10 +114,10 @@
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
                     <form class="form-horizontal">
                         <div class="row card-row-content">
-                            <div class="col-4">
+                            <div class="col-md-2">
                                 <label>Number of Guests</label>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-4">
                                 <input type="radio" name="guests" id="guest1" value="1">
                                 <label for="guest1">
                                     1
@@ -150,22 +150,30 @@
                             </div>
                         </div>
                         <div class="row card-row-content">
-                            <div class="col-4">
-                                <label>Date and Time</label>
+                            <label for="date" class="col-md-2">Date and Time</label>
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <input type="text">
+                            <div class="col-md-4">
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-clock-o"></i>
+                                    </div>
+                                    <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                                </div>
                             </div>
-                            <div class="col-4">
-                                <input type="text">
-                            </div>
-
                         </div>
                         <div class="row card-row-content">
-                            <div class="col-4 offset-4">
+                            <div class="col-md-2 offset-md-2 btm-padding">
                                 <button type="submit" class="btn btn-primary">Reserve</button>
                             </div>
                         </div>
+
                 </div>
 
             </div>

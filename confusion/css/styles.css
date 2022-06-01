@@ -17,6 +17,19 @@
     
 }
 
+.btm-padding {
+    padding-bottom: 4%;
+}
+
+
+.custm-width {
+    width: 30%;
+}
+
+.custm-offset{
+    offset: 40%;
+}
+
 .footer{
     background-color: #D1C4E9;
     margin:0px auto;
