@@ -63,3 +63,8 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+/* Uncomment this if facing issue with modal. */
+/* .modal-backdrop {
+    z-index: 0;
+} */
